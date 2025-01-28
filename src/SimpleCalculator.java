@@ -25,7 +25,7 @@ public class SimpleCalculator {
             default:
                 break;
         }
-        
+        //Eroor here need to change
         System.out.println("Result is: " + result);
 
     }
