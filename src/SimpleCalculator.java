@@ -12,6 +12,8 @@ public class SimpleCalculator {
         System.out.println("Input number");
         int y = scanner.nextInt();
         
+        scanner.nextLine(); //Solves the error in getting input
+
         System.out.println("Choose operation(add/sub/mul/div)");
         String op = scanner.nextLine();
 
