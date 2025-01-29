@@ -28,7 +28,12 @@ public class SimpleCalculator {
                 result = x * y;
                 break;
             case "div":
-                result = x / y;
+                if (x == 0) {
+                    System.out.println("Error, dividend must have value");
+                    return;
+                } else {
+                    result = x / y;
+                }
                 break;     
             default:
                 System.out.println("Error");
