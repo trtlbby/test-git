@@ -24,7 +24,14 @@ public class SimpleCalculator {
             case "sub":
                 result = x - y;
                 break;
+            case "mul":
+                result = x * y;
+                break;
+            case "div":
+                result = x / y;
+                break;     
             default:
+                System.out.println("Error");
                 break;
         }
         //Eroor here need to change
